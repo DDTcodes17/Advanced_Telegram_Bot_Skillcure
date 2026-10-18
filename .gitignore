@@ -1,2 +1,6 @@
 main.ipynb
 /data
+/files_index
+/__pycache__
+.gitignore
+.env
