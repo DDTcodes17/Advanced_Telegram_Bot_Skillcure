@@ -5,7 +5,7 @@ from telegram.ext import Application, MessageHandler, filters
 from agent import tel_agent
 
 load_dotenv()
-TELEGRAM_TOKEN = "8920959193:AAHE4it_vFVmmHZVKAc3iarDbX_XfqeVSfc"
+TELEGRAM_TOKEN = ""
 async def reply(update, context):
     result = await tel_agent.ainvoke(
         {"messages": [{"role": "user", "content": update.message.text}]}
